@@ -1,11 +1,11 @@
 public class Appartment {
-	private String number;
+	private int number;
 	
-	public Appartment(String number){
+	public Appartment(int number){
 		this.number = number;
 	}
 	
-	addOwner(Owner owner){
+	addOwner(Owner owner) {
 		//TODO
 	}
 	
