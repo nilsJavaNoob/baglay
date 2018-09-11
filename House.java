@@ -9,10 +9,10 @@ public class House {
   }
   public void settle(Owner owner){
       for(Floor floor : floors){
-         Appartment appartment new = floor.getFreeAppartment();
+         Appartment appartment  = floor.getFreeAppartment();
          if(appartment != null){
              appartment.addOwner(owner);
-             breake;
+             break;
          }
          
      }

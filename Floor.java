@@ -5,7 +5,7 @@ public class Floor {
 	public Floor(int number,  int appartmCount){
 		this.number = number;
 		this.appartments = new Appartment[appartmCount];
-		for(int i = 0;  i< appartmCount;  i++;){
+		for(int i = 0;  i< appartmCount;  i++){
 			appartments[i] = new Appartment();
 		}
 	}
@@ -13,7 +13,7 @@ public class Floor {
 		return null;
 	}
 	public String toString(){
-		String result+="=========================\n";
+		String result="=========================\n";
 		 result +="Floor : " + number + "\n " ;
 		result+="----------------------------------------\n";
 		for(Appartment appartment : appartments){

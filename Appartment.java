@@ -5,7 +5,7 @@ public class Appartment {
 		this.number = number;
 	}
 	
-	addOwner(Owner owner) {
+	 public addOwner(Owner owner) {
 		//TODO
 	}
 	
